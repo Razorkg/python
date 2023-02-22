@@ -47,5 +47,15 @@ if num1 < num2:
     print("le plus petit numero est", num1)
 else: 
     print("le plus petit numero est", num2)
+    
+    
+    #10
+string1 = input("Enter the first string: ")
+string2 = input("Enter the second string: ")
 
+if len(string1) > len(string2):
+    print("The largest string is:", string1)
+else:
+    print("The largest string is:", string2)
+    
 
