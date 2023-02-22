@@ -19,9 +19,8 @@ bag_of_flour=0.9
 packet_of_butter=0.77
 jar_of_nutella=1.87
 
-order_price = (2*bottle_milk)+(3*bottle_cider)+(bag_of_flour)+(packet_of_butter)+(jar_of_nutella)
-print(f"montant total à payer € {order_price}")
-
+order_price = (2*bottle_milk)+(3*bottle_cider)+bag_of_flour+packet_of_butter+jar_of_nutella
+print(f"prix total à payer €{order_price:.2f}")
 
 
 
