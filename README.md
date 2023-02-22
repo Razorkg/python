@@ -39,5 +39,13 @@ else:
         
 print(message)
 
+#9
+num1 = float(input("Entrez le premier numero"))
+num2 = float(input("Entrez un deuxième numéro"))
+
+if num1 < num2:
+    print("le plus petit numero est", num1)
+else: 
+    print("le plus petit numero est", num2)
 
 
