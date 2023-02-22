@@ -58,4 +58,28 @@ if len(string1) > len(string2):
 else:
     print("The largest string is:", string2)
     
+    
+#11
+string1 = input("Enter the first string: ")
+string2 = input("Enter the second string: ")
+
+if len(string1) > len(string2):
+    print("The largest string is:", string1)
+else:
+    print("The largest string is:", string2)
+    
+#12
+
+studentsTuring = ["Redouane", "Justine", "Ruben", "Edouard"]
+name = "Julie"
+
+if name in studentsTuring:
+    print("You are at the Turing's")
+else:
+    print("You are not part of the Turing's")
+
+
+
+
+    
 
