@@ -130,6 +130,10 @@ max_value = max (num)
 
 print(num)
 
+#1.9chatgpt, pas compris
+calc = "1 + 2"
+string_interpret = eval(calc)
+
     
 
 
