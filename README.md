@@ -96,8 +96,41 @@ else:
     print("Recommencez")
     
     
-    
+#1.1
+count_alpha = len("Hello World")
+print(count_alpha)
 
+#1.2
+count_alpha = 10
+count_float = float(count_alpha)
+
+#1.3
+import math
+pi = math.pi
+round_pi = round(pi, 2)
+print(round_pi)
+
+#1.4
+text = "Hello world"
+reversed_text = list(reversed(text))
+print(reversed_text)
+#1.5
+age  = input("Quel est votre âge?")
+print(f"vous avez {age} ans")
+print(type(age))
+#1.6
+num  = [2,8,1,4,6,3,7]
+sorted_num = sorted (num)
+#1.7
+num = [2,8,1,4,6,3,7]
+sum_of_list = sum (num)
+#1.8
+num = [2,8,1,4,6,3,7]
+max_value = max (num)
+
+print(num)
+
+    
 
 
     
