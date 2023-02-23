@@ -77,7 +77,26 @@ if name in studentsTuring:
     print("You are at the Turing's")
 else:
     print("You are not part of the Turing's")
+    
+    
+   #retry
 
+currency = input("Entrez 'E' pour EUROS ou '^$' pour DOLLARS")
+amount = float(input("Entrez le montant"))
+
+if currency == 'E':
+    conversion_rate = 1.06 
+    converted_amount = amount*conversion_rate
+    print(f"vos {amount} euros valent {converted_amount} DOLLARS" )
+elif currency == '$':
+    conversion_rate = 0.94
+    converted_amount = amount*conversion_rate
+    print(f"vos  {amount} $ valent {converted_amount} euros")
+else: 
+    print("Recommencez")
+    
+    
+    
 
 
 
